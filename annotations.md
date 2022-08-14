@@ -1,6 +1,14 @@
 # Unit Testing
 
-Tests a unit of a code
+- Tests a unit of a code;
+- Each function tested must be pure;
+- ES Modules and how to run: https://jestjs.io/docs/ecmascript-modules;
+
+How to run Jest with ES modules
+
+```javascript
+NODE_OPTIONS=--experimental-vm-modules npx jest
+```
 
 ## Library
 
